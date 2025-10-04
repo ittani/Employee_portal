@@ -20,3 +20,23 @@ This project demonstrates key programming concepts such as object-oriented desig
 ---
 
 ## 📂 Project Structure
+Employee Portal/
+├── src/
+│   ├── EmployeeInformation/
+│   │   ├── ValidateEmployee.java
+│   │   ├── CreateEmployee.java
+│   │   ├── EmployeeInfo.java
+│   │   └── DisplayNewEmployeeInfo.java (optional)
+│   ├── System/
+│   │   └── SystemCheck.java
+│   └── Main.java
+├── .gitignore
+└── README.md
+
+---
+
+## 🧰 How to Run
+
+### **1. Clone the repository**
+```bash
+git clone https://github.com/ittani/Employee_portal.git
