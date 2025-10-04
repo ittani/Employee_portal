@@ -1,32 +1,22 @@
-************************************************************
-              Welcome to Noventa Group
-************************************************************
-Please enter your work number (4 digits): 1324
+# 🧑‍💼 Employee Portal
 
-✅ The user already exists!
+A simple Java-based console application for managing employee profiles at **Noventa Group**.  
+This project demonstrates key programming concepts such as object-oriented design, input validation, and class collaboration.
 
-Employee with work number 1324 already exists!
-Would you like to update their details? (y/n)
-y
-Please Enter your first name:
-John
-Please Enter your last name:
-Doe
-Where are you based?
-Limpopo
-How old are you?
-27
-What's your role?
-Engineer
-What's your current salary?
-25000
-✅ Employee profile created successfully!
+---
 
---- Employee Profile ---
-Name: John Doe
-Age: 27
-Role: Engineer
-Location: Limpopo
-Salary: R25000.0
-Work Number: 1324
-------------------------
+## 🚀 Features
+
+- ✅ Validate existing employees using pre-registered work numbers.
+- 🆕 Create new employee profiles if the work number does not exist.
+- 🧠 Auto-generate a 4-digit work number for new employees.
+- 💾 Display employee information in a readable format.
+- ⚙️ Modular design using multiple classes:
+    - `ValidateEmployee` – validates existing employees.
+    - `CreateEmployee` – creates new employee profiles.
+    - `EmployeeInfo` – stores and displays employee data.
+    - `Main` – entry point of the program.
+
+---
+
+## 📂 Project Structure
