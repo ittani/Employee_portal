@@ -77,4 +77,16 @@ public class EmployeeInfo {
     public void setWorknumber(long worknumber) {
         this.worknumber = worknumber;
     }
+
+    @Override
+    public String toString() {
+        return "\n--- Employee Profile ---" +
+                "\nName: " + firstName + " " + lastName +
+                "\nAge: " + age +
+                "\nRole: " + role +
+                "\nLocation: " + location +
+                "\nSalary: R" + salary +
+                "\nWork Number: " + worknumber +
+                "\n------------------------";
+    }
 }
